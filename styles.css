@@ -65,7 +65,7 @@ table {
 
 body {
 	background: #d6d6ce;
-	font-family: garamond, courier, serif;
+	font-family: "Vollkorn", garamond, courier, serif;
 	font-size: 22px;
 	margin: 120px;
 	width: 960px;
@@ -75,14 +75,37 @@ h1 {
 	font-size: 36px;
 	font-family: 'Diplomata SC', courier, serif;
 	padding-bottom: 20px;
-	/*text-shadow: 1px 0 0 #ec0e0e;*/
+	text-shadow: 3px 3px 2px #767676;
 }
 
 h2 {
 	padding-bottom: 30px;
 }
 
-.contact {
-	font-size: 19px;
-	margin-top: 19px;
+
+p {
+
+	margin: 30px;
+}
+
+ul {
+	margin: 20px;
+}
+
+li {
+	margin: 10px;
+}
+
+.nav li {
+	float: left;
+	margin: 30px 80px 0 80px;
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ec0e0e;
 }
